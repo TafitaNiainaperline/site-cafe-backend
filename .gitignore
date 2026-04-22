@@ -1,0 +1,41 @@
+# See https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# compiled output
+dist/
+tmp/
+out-tsc/
+*.tsbuildinfo
+
+# dependencies
+node_modules/
+
+# env files (keep .env.example)
+.env
+.env.local
+.env.*.local
+
+# logs
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# IDEs
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+
+# Cache
+.cache/
+.local/
+
+# Replit
+.replit-artifact/
